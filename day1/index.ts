@@ -25,7 +25,7 @@ function main(filePath: string): number {
     return nbOnZero;
 }
 
-console.log(main('./input.txt'));
+console.log("Résultat Day 1 : " + main('./day1/input.txt'));
 
 export { main };
 
